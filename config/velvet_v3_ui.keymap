@@ -34,6 +34,29 @@
             require-prior-idle-ms = <800>;
             excluded-positions = <>;
         };
+
+        hrm: mod_tap {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HRM";
+            #binding-cells = <2>;
+            bindings = <&kp>, <&kp>;
+            quick-tap-ms = <100>;
+            global-quick-tap;
+            flavor = "tap-preferred";
+            tapping-term-ms = <170>;
+        };
+        // hrm for pinky
+        hrp: mod_tap_pinky {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HRM for pinky";
+            #binding-cells = <2>;
+            bindings = <&kp>, <&kp>;
+            quick-tap-ms = <100>;
+            global-quick-tap;
+            flavor = "tap-preferred";
+            tapping-term-ms = <190>;
+        };
+
     };
 
     keymap {
