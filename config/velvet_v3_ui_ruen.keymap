@@ -164,7 +164,7 @@
             display-name = "Symbols";
             bindings = <
 &kp RU_CYRILLIC_IO  &en HASH          &en LT    &kp EQUAL  &en GT       &en GRAVE                    &en CARET  &kp RU_DQT  &kp UNDER    &en SQT   &trans      &trans
-&kp RU_NUMERO       &kp RU_BACKSLASH  &kp LPAR  &kp COLON  &kp RPAR     &kp TILDE                    &kp PRCNT  &en LBRC    &kp RU_SEMI  &kp RBRC  &kp EXCL    &kp RU_QMARK
+&kp RU_NUMERO       &kp RU_BACKSLASH  &kp LPAR  &en COLON  &kp RPAR     &en TILDE                    &kp PRCNT  &en LBRC    &kp RU_SEMI  &en RBRC  &kp EXCL    &kp RU_QMARK
 &trans              &kp RU_COMMA      &kp STAR  &kp MINUS  &kp RU_FSLH  &en DLLR                     &en AT     &en PIPE    &en PLUS     &en AMPS  &kp RU_DOT  &trans
                                       &trans    &trans     &trans       &mo 5      &trans    &trans  &trans     &trans      &en LBKT     &en RBKT
             >;
